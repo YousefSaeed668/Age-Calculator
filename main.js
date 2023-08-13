@@ -84,8 +84,7 @@ function filterData(years,month,day){
     }
       if (dayInput.value > 31 ||dayInput.value <= 0){
         yes = false;
-        document.querySelector(".year day").style.color="hsl(0, 100%, 67%)"
-        
+        document.querySelector(".day .error").style.color="hsl(0, 100%, 67%)"
         document.querySelector(".day .error").style.display = "block"
       document.querySelector(".day input").classList.add("border");
   
