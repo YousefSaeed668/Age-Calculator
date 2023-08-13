@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="images/favicon-32x32.png">
+</head>
+<body>
+  <div class="calculator">
+    <div class="inputs">
+      <div class="day">
+        <label class="label" for="day">Day</label>
+        <input type="number" name="day" id="day" placeholder="DD">
+        <label class="error" for="day">Must Be a Valid Day</label>
+      </div>
+      <div class="month">
+        <label class="label" for="month">Month</label>
+        <input type="number" name="month" id="month" placeholder="MM">
+        <label class="error" for="month">Must Be a Valid Month</label>
+      </div>
+      <div class="year">
+        <label class="label" for="year">Year</label>
+        <input type="number" name="year" id="year" placeholder="YY">
+        <label class="error" for="year">Must Be a Valid Year</label>
+      </div>
+
+
+      
+    </div>
+    <div class="line">
+      <span></span>
+      <img src="images/icon-arrow.svg" id="arrow"  style="background-color:hsl(259, 100%, 65%) ; padding: 10px; border-radius:50% ; ">
+    </div>
+    <p class="year"><span>--</span> years</p>
+    <p class="month"><span>--</span> months</p>
+    <p class="day"><span>--</span> days</p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
+<!-- style="background-color:red ; padding: 15px; border-radius:50% ; -->
